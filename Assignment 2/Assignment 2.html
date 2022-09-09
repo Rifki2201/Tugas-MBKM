@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Rifki Mulia</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-light">
+
+      <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Galery</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Inventory</a></li>
+        </ul>
+    </nav>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12  mt-5">
+            <div class="card">
+              <div class="card-body p-4">
+                <div class="row align-items-center">
+                  <div class="col-lg-2">
+                    <img src="potosaya.jpeg" class="img-fluid rounded-pill" alt="">
+                  </div>
+                  <div class="col-lg-3 text-center text-lg-start">
+                    <h2 id="data_nama"></h2>
+                    <p id="data_role"></p>
+                    <div class="mt-4">
+                      <a href="" class="btn btn-primary">Kontak</a>
+                      <a href="" class="btn btn-outline-success">Resume</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 mt-5 mt-lg-0"  style="border-left: 1px solid #6c757d;">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td class="fw-semibold pe-5"> Availability </td>
+                          <td id="data_availability"></td>
+                        </tr>
+                        <tr>
+                          <td class="fw-semibold pe-5"> Usia </td>
+                          <td id="data_age"></td>
+                        </tr>
+                        <tr>
+                          <td class="fw-semibold pe-5"> Lokasi </td>
+                          <td id="data_lokasi"></td>
+                        </tr>
+                        <tr>
+                          <td class="fw-semibold pe-5"> Pengalaman </td>
+                          <td id="data_experience"></td>
+                        </tr>
+                        <tr>
+                          <td class="fw-semibold pe-5"> Email </td>
+                          <td id="data_email"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12  mt-5 mb-5" >
+            <div class="bg-light p-3 " id="form">
+              <div class="mb-2">
+                <label class="form-label fw-semibold">Nama</label>
+                <input type="text" id="nama" class="form-control">
+              </div>
+              <div class="mb-2">
+                <label class="form-label fw-semibold">Role</label>
+                <input type="text" id="role" class="form-control">
+              </div>
+              <div class="mb-2">
+                <label class="form-label fw-semibold">Availability</label>
+                <input type="text" id="availability" class="form-control">
+              </div>
+              <div class="mb-2">
+                <label class="form-label fw-semibold">Age</label>
+                <input type="text" id="age" class="form-control">
+              </div>
+              <div class="mb-2">
+                <label class="form-label fw-semibold">Lokasi</label>
+                <input type="text" id="lokasi" class="form-control">
+              </div>
+              <div class="mb-2">
+                <label class="form-label fw-semibold">Years Experience</label>
+                <input type="text" id="experience" class="form-control">
+              </div>
+              <div class="mb-2">
+                <label class="form-label fw-semibold">Email</label>
+                <input type="text" id="email" class="form-control">
+              </div>
+              <button onclick="submit()" class="btn btn-success w-100">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
