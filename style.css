@@ -1,0 +1,98 @@
+body{
+  background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg&ga=GA1.2.163404200.1666198050);
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 20px 10px 25px;
+    border: none;
+    border-radius: 32px;
+    background: #14213d;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    color: white;
+    margin-left: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(29, 29, 29, 0.5);
+ } 
+input{
+    padding: 15px 40px 15px 40px;
+    margin-left: 300px;
+    border-radius: 50px;
+    box-shadow: inset 12px 12px 12px #cbced1, inset -12px -12px 12px white;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+} 
+.container {
+  z-index: 1;
+  width: 70%;
+  margin: 0 auto;
+    border-radius: 24px;
+    background: #F6F5F0;
+    padding: 2%;
+    box-shadow: 0px 10px 6px -8px rgba(0,0,0,0.75);
+}
+.board {
+    column-count: 3;
+    column-gap: 1rem;
+}
+.container h2 {
+    margin: 0 0 30px;
+    text-align: center;
+}
+.card {
+    width: 84%;
+    background: #ccc;
+    padding: 8%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+.card.active {
+    background: blue;
+}
+.card.case {
+    background: black;
+}
+.card.new {
+    background: green;
+}
+.card.death {
+    background: red;
+}
+.card.recorvered {
+    background: gray;
+}
+.card.test {
+    background: orange;
+}
+.card h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+.card span {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.card i {
+    font-size: 3rem;
+}
+@media screen and (max-width: 768px){
+  .board {
+    column-count: 2;
+  }
+  .card span {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 500px){
+  .board {
+    column-count: 1;
+  }
+}
